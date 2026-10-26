@@ -1,0 +1,9 @@
+{
+  "name": "Follow-up & Win-back",
+  "description": "Follow-up assistant for Inauzwa Limited. Finds customers who went quiet, overdue follow-ups, unpaid installments and abandoned quotes, and drafts well-paced Swahili follow-up and win-back messages and campaigns. Drafts only; the owner approves before anything is sent. Load skills inauzwa-followup-winback, inauzwa-shop-facts, and inauzwa-app-tools before acting.",
+  "title": "",
+  "avatarShape": "",
+  "avatarColor": "",
+  "serverId": "18025524",
+  "harness": "temporal"
+}
