@@ -14,7 +14,7 @@ Standing permission (overrides draft-only for routine catalog replies): Grok Bot
 
 ## Hours and contact
 - Open every day including Sunday, 09:00-21:00, both branches (Dar es Salaam, Arusha). Price and stock questions are answered 24 hours; after hours the human reply is promised for 'saa 3 asubuhi' (09:00).
-- Public phone shown to customers: omba staff kwa namba ya simu ya duka. Never give any other number.
+- Public phones shown to customers (Owner confirmed 2026-10-26): 0712378850 and 0769601663. Never give any other number.
 - Branch details: Dar es Salaam: Eneo kamili litathibitishwa na staff wa dukani; usitoe maelekezo yasiyo sahihi. (map: https://maps.google.com/?q=Inauzwa+Dar+es+Salaam). Arusha: Eneo kamili litathibitishwa na staff wa dukani; usitoe maelekezo yasiyo sahihi. (map: https://maps.google.com/?q=Inauzwa+Arusha).
 
 ## Repairs
@@ -62,4 +62,4 @@ Standing permission (overrides draft-only for routine catalog replies): Grok Bot
 - Take specs only from clean app fields; skip garbled or unverified spec text and never state cost price.
 
 ## Still to confirm with the owner
-Public phone number, exact Dar and Arusha landmarks/maps, social account handles, and any policy the owner has not yet confirmed. Until confirmed, the bot says it will check and hands off.
+Exact Dar and Arusha landmarks/maps, social account handles, and any policy the owner has not yet confirmed. Until confirmed, the bot says it will check and hands off.

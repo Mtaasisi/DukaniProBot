@@ -1,9 +1,8 @@
 {
-  "created_at_eat": "2026-10-26T20:21:07",
-  "purpose": "Inauzwa Grok Bot team backup: skills, agent profiles/settings. Restore by copying skills into workflows and recreating agents from profiles.",
-  "github_owner": "Mtaasisi",
-  "repo_name": "DukaniProBot",
-  "skills_count": 21,
+  "exported_at": "2026-10-27T14:34:29.817594+03:00",
+  "timezone": "Africa/Dar_es_Salaam",
+  "repo": "https://github.com/Mtaasisi/DukaniProBot",
+  "skill_count": 35,
   "skills": [
     "coaching-ya-customer-care-na-ripoti-ya-mfanyakaz",
     "getting-started",
@@ -14,10 +13,24 @@
     "getting-started-posting-status",
     "getting-started-repairs-tradeins",
     "getting-started-sales-closer",
+    "ig-audit",
+    "ig-caption",
+    "ig-carousel",
+    "ig-comment",
+    "ig-dm",
+    "ig-human",
+    "ig-plan",
+    "ig-profile",
+    "ig-reel",
+    "ig-reply",
+    "ig-repurpose",
+    "ig-story",
+    "ig-viral",
     "inauzwa-app-tools",
     "inauzwa-captain-trainer",
     "inauzwa-catalog-seo",
     "inauzwa-followup-winback",
+    "inauzwa-instagram",
     "inauzwa-marketing-social",
     "inauzwa-ops-manager",
     "inauzwa-posting-status-2",
@@ -27,27 +40,6 @@
     "inauzwa-shop-facts",
     "tanzania-retail-pricing"
   ],
-  "agents_count": 13,
-  "agents": [
-    "CEO__91b7c557-36ac-46c3-8cf0-1bb66d878c09",
-    "CHARTS-ANALYSE__db0012f8-505d-4aec-8b17-4f58ac66413b",
-    "Captain-Trainer__cd0dc4c1-cf5a-4264-a3ae-924758c5be66",
-    "Catalog--SEO__3300b99c-41ed-48d1-aff0-a34e6c3a3d60",
-    "Follow-up--Win-back__7473b50c-88b6-4087-a42a-95ed40044ede",
-    "Grok-Bot__19d08007-0747-43d3-bb4a-207c9a166069",
-    "Marketing--Social__178a4dd3-d9a3-4cc4-8ec4-af1812fd5743",
-    "Ops-Manager__b390be28-db7f-46e2-838c-9fd80c543975",
-    "Pricing--Competitors__5b0974d9-309c-4fd5-b313-232c8e17a0b8",
-    "Repairs--Trade-ins-Desk__18d40dd0-5add-4d1f-b9c4-fcd49408b21c",
-    "Sales-Closer__0f648754-3e16-4e1d-b7fd-85d663f392d1",
-    "Website__9be3385c-2fa6-4b8c-bb7b-ed6f328b7420",
-    "emails-inauzwa-ltd__f650869b-e470-4a1a-a8b3-5f595988c0ea"
-  ],
-  "notes": [
-    "Does not include chat transcripts, secrets, or MCP tokens.",
-    "Merged/retired bots are included with their (merged) profiles for history.",
-    "Weekday routine should re-run this export and commit to main."
-  ],
-  "repo_url": "https://github.com/Mtaasisi/DukaniProBot",
-  "visibility_note": "Repo was public at first push; prefer private for shop skills."
+  "agent_count": 13,
+  "note": "Includes ig-* Instagram pack + inauzwa-instagram bridge + voice.md. No secrets/tokens/chats."
 }
