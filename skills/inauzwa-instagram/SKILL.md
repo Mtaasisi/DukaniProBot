@@ -3,9 +3,9 @@ name: inauzwa-instagram
 description: >-
   Use when planning or drafting Instagram (or Facebook/WhatsApp status) content
   for Inauzwa Limited: wire the ig-* pack to shop facts, live catalog prices,
-  Swahili tone, and owner approval. Use for Reels, captions, carousels, stories,
-  weekly plans, profile audits, viral research, comments, replies, or DMs for
-  @inauzwa.
+  native Tanzania Swahili tone (never EN→SW translate), and owner approval. Use
+  for Reels, captions, carousels, stories, weekly plans, profile audits, viral
+  research, comments, replies, or DMs for @inauzwa.
 ---
 # Inauzwa Instagram bridge
 
@@ -15,14 +15,18 @@ Load this before any `ig-*` skill when the account is Inauzwa. It sits on top of
 
 1. `inauzwa-shop-facts` — hours, phones, warranty, delivery, installments, payments, what is still unconfirmed.
 2. `inauzwa-app-tools` — live price and stock only from the app. Skip out-of-stock and TZS 0/1 placeholders.
-3. Then the matching `ig-*` skill (reel, caption, carousel, story, plan, viral, profile, human, comment, reply, dm, repurpose, audit).
+3. Read `/home/box/.claude/instagram/voice.md` (also beside this skill as `voice.md`).
+4. Then the matching `ig-*` skill (reel, caption, carousel, story, plan, viral, profile, human, comment, reply, dm, repurpose, audit).
 
 ## Account and voice
 
 - Instagram: `@inauzwa`. Facebook page: Mtaasisii.
-- Voice file: `/home/box/.claude/instagram/voice.md` (same as `~/.claude/instagram/voice.md`). Read it before writing spoken scripts.
-- Tone: casual Swahili with English product names (iPhone, MacBook, GB). Short lines people can say on camera.
+- Voice file: `/home/box/.claude/instagram/voice.md`.
+- **Tone (Owner 2026-10-27):** Kiswahili cha Tanzania cha dukani (Dar/Arusha). **Andika Kiswahili kuanzia mwanzo** — usifikiri Kiingereza kisha utafsiri. Tafsiri EN→SW inasikika bandia na imekataliwa.
+- Majina ya bidhaa yanabaki Kiingereza pale yanapotumika dukani (iPhone, MacBook, GB, iCloud, trade-in, warranty, DM, used). Sentensi na mtiririko ni Kiswahili.
+- Mistari mifupi mdomoni. Prefer sauti halisi hata hookscore ya Kiingereza ikishuka; usiingize Don't/your/mistake ili kupandisha score.
 - Store stills still use the Inauzwa Product template (red tag, large price, short Swahili pitch, product photo, Quality Loyalty Trust). Reels/carousels from `ig-*` are scripts and slide copy; they do not replace that template for product grid posts.
+- Gold sample (sauti sahihi) iko ndani ya `voice.md` — tumia kama mfano, si kama template ya kila post.
 
 ## Hard rules (override the ig pack where they conflict)
 
