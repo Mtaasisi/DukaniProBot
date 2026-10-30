@@ -1,10 +1,7 @@
 ---
 name: inauzwa-shop-facts
 description: >-
-  Use alongside any Inauzwa skill before stating a policy, fee, repair rule,
-  installment rule, delivery cost, payment, warranty, hours, price quirk, or
-  when sending product details and links to a customer or in a post:
-  owner-confirmed shop facts for Inauzwa Limited.
+  Use alongside any Inauzwa skill before stating a policy, fee, repair rule, installment rule, delivery cost, payment, warranty, hours, price quirk, or when sending product details and links to a customer or in a post:
 ---
 # Inauzwa Limited owner-confirmed shop facts
 
@@ -39,15 +36,18 @@ Standing permission (overrides draft-only for routine catalog replies): Grok Bot
 - Payments (Dar es Salaam): Lipa Namba 16047799 and CRDB account 10121592237, account name INAUZWA ELECTRONICS (spelled exactly as the bank has it). Do not claim these methods: methods not listed by staff.
 - Payments (Arusha): Tumia Lipa Namba 16047799 au CRDB 10121592237 (INAUZWA ELECTRONICS) kama Dar; kama mteja anauliza namba nyingine, handoff kwa staff.
 - Never say a payment was received until staff confirm the screenshot.
-- The bot never discounts. It may state the offer price; when the customer says cash is ready, hand off to staff.
 - No holding an item without full payment (except an installment deposit).
+
+## Prices and bargaining (Owner 2026-10-28)
+- **Last price** = sales price saved in the Inauzwa app/catalog. Lowest staff may accept after bargaining. Never go below last price without Owner yes.
+- **Advertise price** = sticker / Instagram / WhatsApp status / first quote. Always above last price so customers can bargain. Bands in tanzania-retail-pricing.
+- Posts and first customer quotes use advertise price when one is set; otherwise use catalog price and do not invent a higher sticker.
+- The bot may come down from advertise toward last price when the customer bargains; never invent a discount below last price. Deeper cuts → hand off to Owner/staff.
+- Answer price, stock and specs only from app data. If an item is not in the app, or priced TZS 0 or 1 (placeholder), say you will confirm shortly and hand off to the owner. Never state 0 or 1.
 
 ## Warranty and trade-in
 - Warranty: new 6 months, used 2 months, repair 30 days, accessories kulingana na bidhaa. Staff decide claims after inspection.
 - Trade-in: collect model, GB, battery health and photos; staff give the price. The shop does NOT buy iCloud-locked or carrier-locked phones; say so politely.
-
-## Prices and stock
-- Answer price, stock and specs only from app data. If an item is not in the app, or priced TZS 0 or 1 (placeholder), say you will confirm shortly and hand off to the owner. Never state 0 or 1.
 
 ## Message handling
 - Ignore and tag cargo/dealer sellers, internal alerts and WhatsApp Call notices. Offers to sell to the shop go to staff.
@@ -62,4 +62,7 @@ Standing permission (overrides draft-only for routine catalog replies): Grok Bot
 - Take specs only from clean app fields; skip garbled or unverified spec text and never state cost price.
 
 ## Still to confirm with the owner
-Exact Dar and Arusha landmarks/maps, social account handles, and any policy the owner has not yet confirmed. Until confirmed, the bot says it will check and hands off.
+Exact Dar and Arusha landmarks/maps, and any policy the owner has not yet confirmed. Social handles confirmed: Instagram @inauzwa, Facebook Mtaasisii. Until confirmed, the bot says it will check and hands off.
+
+## Social handles (Owner confirmed)
+- Instagram: @inauzwa · Facebook: Mtaasisii
